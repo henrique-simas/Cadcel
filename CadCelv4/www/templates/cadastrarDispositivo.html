@@ -1,0 +1,53 @@
+<ion-view title="Cadastrar Dispositivo" hide-nav-bar="true" id="page4" style="">
+  <ion-content padding="false" class="manual-ios-statusbar-padding">
+    <div>
+      <img src="img/0Dtm4w7uRjy16YfYBVVR_CAD-CEL2.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <ion-list id="cadastrarDispositivo-list10">
+      <label class="item item-input">
+        <span class="input-label">Proprietário</span>
+        <input placeholder="" type="text" id="Cproprietario">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Email</span>
+        <input placeholder="" type="text" id="Cemail">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Telefone</span>
+        <input placeholder="" type="text"  id="Ctelefone">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">IMEI</span>
+        <input placeholder="" type="text"  id="Cimei">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Número do BO</span>
+        <input placeholder="" type="text"  id="CnumeroBO">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Data do BO</span>
+        <input placeholder="" type="date"  id="CdataBO">
+      </label>
+      <label class="item item-select">
+        <span class="input-label">Categoria</span>
+        <select id="Ccategoria">
+          <option value = "1">Celular</option>
+          <option value = "2">Tablet</option>
+          <option value = "3">Apple Watch</option>
+          <option value = "4">Bicicletas</option>
+        </select>
+      </label>
+      <label class="item item-select">
+        <span class="input-label">Status</span>
+        <select id="Cstatus">
+          <option value = "1">Furto</option>
+          <option value = "2">Roubo</option>
+          <option value = "3">Perda</option>
+          <option value = "4">Recuperado</option>
+          <option value = "5">Normal</option>
+        </select>
+      </label>
+    </ion-list>
+    <button ng-click="cadastrodispositivo()" id="cadastrarDispositivo-button12" style="font-weight:300;font-size:20px;" class="button button-positive button-small button-block">Enviar</button>
+  </ion-content>
+</ion-view>
